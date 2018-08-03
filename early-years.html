@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <title>Travis Travel Blog Project</title>
+        <link href='bootstrap.css' rel='stylesheet'>
+        <link href='Bootstrap source/bootstrap-3.3.7-dist/css/bootstrap.min.css' rel='stylesheet'>
+        <link href='stylesheets/main.css' rel='stylesheet'>
+        <link href='animate.css' rel='stylesheet'>
+        <link href='lightbox.css' rel='stylesheet'>
+        <link href='aos.css' rel='stylesheet'>
+        <style>
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+</style>
+    </head>
+
+    <body>
+        <div class='container-fluid text-center text-uppercase'>
+            <div class='row'>
+            <div class='col-md-12 col-lg-12' style="background-image: url(IMG_8807.JPG); background-repeat: no-repeat; opacity: 1;">
+            <a href="index.html"><h1 style="opacity: 1;">Check out the places I've been&#x21;</h1></a>
+            </div>
+            </div>
+        </div>
+       
+
+
+<!-- This is the collapsable navbar I made in BS, I think it might work-->
+
+<div class='navbar navbar-inverse navbar-fixed-top'>
+  <div class='container-fluid navbar'>
+    <div class='navbar-header'>
+  <a href='index.html' class='navbar-brand'>
+    Travis' Travel Blog
+  </a>
+    
+    <button type='button' class='navbar-toggle'
+            data-toggle='collapse'
+            data-target='.navbar-collapse'>
+      <span class='sr-only'>Toggle Navigation</span>
+      <span class='icon-bar'></span>
+      <span class='icon-bar'></span>
+      <span class='icon-bar'></span>
+    </button>
+    </div>
+    
+    
+  <ul class='nav navbar-nav nav-tabs navbar-right collapse navbar-collapse'>
+    <li><a href='early-years.html'>Early Years</a></li>
+    <li><a href='my-year-in-europe.html'>My Year in Europe</a></li>
+    <li><a href='japan.html'>Japan</a></li>
+    <li><a href='new-zealand.html'>New Zealand</a></li>
+    <li><a href='jamaica.html'>Jamaica</a></li>
+  </ul>
+</div>
+</div>
+
+
+
+
+
+
+
+
+<!-- THIS IS MY ATTEMPT IN MAKING A CARAOUSEL -->
+
+<div id='myCarousel' class='carousel slide container full-width' data-interval='3000' data-ride='carousel'>
+    <!-- CAROUSEL INDICATORS -->
+    <ol class='carousel-indicators'>
+        <li data-target='#myCarousel' data-slide-to='0' class='active'>
+        </li>
+        <li data-target='#myCarousel' data-slide-to='1'></li>
+        <li data-target='#myCarousel' data-slide-to='2'></li>
+        <li data-target='#myCarousel' data-slide-to='3'></li>
+        <li data-target='#myCarousel' data-slide-to='4'></li>
+    </ol>
+    <!--Carousel Items -->
+    <div class='carousel-inner'>
+        <div class='item active'>
+            <a href="early-years.html">
+            <img src='images/front-page-photos/alaska-early-years-carousel.jpg' alt='Alaska/Early Years' >
+            <div class='carousel-caption'>
+                <h1>Alaska/Early Years</h1>
+                <p>These are snapshots of places I'd been to before my year in Europe</p>
+            </div>
+            </a>
+        </div>
+        <div class='item'>
+            <img src='images/front-page-photos/rome-pantheon-carousel.jpg' alt="My year in Europe">
+            <div class='carousel-caption'>
+                <h1>My year in Europe</h1>
+                <p>Here you can see photos from the year I spent in Europe during high school</p>
+            </div>
+        </div>
+        <div class='item'>
+            <img src='japan-osaka-carousel.jpg' alt="Studying abroad in Japan">
+            <div class='carousel-caption'>
+                <h1>Japan</h1>
+                <p>I studied in Tokyo at Meiji Gakuin University for my last semester in college. Check it out here&excl;</p>
+            </div>
+        </div>
+        <div class='item'>
+            <img src='images/front-page-photos/nz-hobbit-carousel.jpg' alt="New Zealand">
+            <div class='carousel-caption'>
+                <h1>New Zealand</h1>
+                <p>I went to New Zealand a couple times after college</p>
+            </div>
+        </div>
+        <div class='item'>
+            <img src='images/front-page-photos/jamaica-carousel.jpg' alt="Jamaica">
+            <div class='carousel-caption'>
+                <h1>Jamaica</h1>
+                <p>I spent a week in Montego Bay and hung out by the beach. I went snorkeling and cliffdiving in Negril and spent a day in Kingston to go record collecting</p>
+            </div>
+        </div>
+    </div>
+
+        <!-- Carousel nav -->
+    <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="carousel-control right" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+
+</div>
+
+
+<div class='container-fluid'>
+    <div class='row'>
+        <div class='col-md-4 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>Australia</h4>
+                <a href='images/Asia-US/Australia.jpg' data-lightbox='image-1' data-title="Family trip to Australia cir. 1995">
+                    <img src='images/Asia-US/Australia.jpg' class="img-thumbnail" alt="Australia">
+                </a>
+                <p>My parents took us to Australia and New Zealand when me and my sister were very young. Here I am petting a kangaroo.</p>
+        </div>
+        <div class='col-md-4 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>Borneo</h4>
+                <a href='images/Asia-US/Borneo.jpg' data-lightbox='image-2' data-title="Family trip to Borneo cir. 1995">
+                    <img src='images/Asia-US/Borneo.jpg' class="img-thumbnail" alt='Borneo'>
+                </a>
+                <p>Here are some photos of the time we went to Borneo. I was pretty young and don't remember much, but I do remember the Orangutangs</p>
+        </div>
+        <div class='col-md-4 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>Ecuador</h4>
+                <a href='images/Asia-US/ecuador-1.jpg' data-lightbox='image-3' data-title="Quito, Ecuador as seen from above">
+                    <img src='images/Asia-US/ecuador-1.jpg' class="img-thumbnail" alt="Ecuador Hill View">
+                </a>
+                <p>I went to Quito&comma; Ecuador for a month as part of a language immersion program. Here is a view of the city as seen from the hills. Quito is cool,
+                I had fun there</p>
+        </div>
+    </div>
+</div>
+<div class='container-fluid'>
+    <div class='row'>
+        <div class='col-md-4 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>Ecuador at the Equator</h4>
+                <a href='images/Asia-US/ecuador-equator.jpg' data-lightbox='image-4' data-title="The Equator, outside Quito, Ecuador">
+                    <img src='images/Asia-US/ecuador-equator.jpg' class="img-thumbnail" alt="The Equator">
+                </a>
+                <p>While I was in Ecuador I took a daytrip by bus to the Equator</p>
+        </div>
+
+        <div class='col-md-4 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>The Guayasamin Museum</h4>
+                <a href='images/Asia-US/ecuador-guayasamin.jpg' data-lightbox='image-5' data-title="The Guayasamin Museum">
+                    <img src='images/Asia-US/ecuador-guayasamin.jpg' class='img-thumbnail'>
+                </a>
+                <p>My language immersion school took us to a museum featuring the work of Oswaldo Guayasamin, the most renowned artist in Ecaudor</p>
+        </div>
+        <div class='col-md-4 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>La Virgin Guadalupe</h4>
+                <a href='images/Asia-US/ecuador-virgin-guadalupe2.jpg' data-lightbox='image-6' data-title="The Statue of the Virgen Guadalupe. Quito, Ecuador">
+                    <img src='images/Asia-US/ecuador-virgin-guadalupe2.jpg' class='img-thumbnail'>
+                </a>
+                <p>Me&comma; my host and some of my fellow guests took us to the statue of the Virgen de Guadalupe. It's the only representation of the Virgen Mary depicted to have wings</p>
+        </div>
+    </div>
+</div>
+<div class='container-fluid'>
+    <div class='row'>
+        <div class='col-md-5 col-offset-2 col-sm-12 text-center' data-aos='flip-up'>
+            <h4>New Orleans</h4>
+                <a href='images/Asia-US/new-orleans-bourbon-street.jpg' data-lightbox='image-7' data-title="A shot of Bourbon Street in the New Orleans French Quarter">
+                    <img src='images/Asia-US/new-orleans-bourbon-street.jpg' class='img-thumbnail text-center'>
+                </a>
+                <p class='col-sm-12 text-center'>Me and my family took a trip across the country when I was about 16. One of our stops was New Orleans, where went to jazz clubs in the French Quarter</p>
+        </div>
+        <div class='col-md-7  col-sm-12 text-center' data-aos='flip-down'>
+            <h4>Radio Tower</h4>
+                <a href='images/Asia-US/toronto-radio-tower.jpg' data-lightbox='image-8' data-title="Me at Toronto Radio Tower">
+                    <img src='images/Asia-US/toronto-radio-tower.jpg' class='img-thumbnail text-center'>
+                </a>
+                <p class='col-sm-12 text-center'>I took my own trip across the US and Canada when in the summer of my first year of college. I visited some family in Toronto and they took me to the Toronto Radio Tower</p>
+        </div>
+    </div>
+</div>
+
+<div class='container-fluid'>
+    <div class='row'>
+        <div class='col-md-7 text-center' data-aos='flip-right'>
+            <h4>Me and my Mom</h4>
+                <a href='images/Asia-US/me-and-my-mom.jpg' data-lightbox='image-9' data-title="Me and my Mom">
+                    <img src='images/Asia-US/me-and-my-mom.jpg' class='img-thumbnail text-center'>
+                </a>
+                <p class='col-sm-12 text-center'>This is a picture of me and my mom on a camping trip. I love my mom, she's the greatest human being I know</p>
+        </div>
+    </div>
+</div>
+<div class='container-fluid'>
+    <div class='row'>
+        <div class='col-md-7 col-sm-12 center-block text-center' data-aos='flip-left' style="float: none;">
+            <h4>El Capitan</h4>
+                <a href='images/Asia-US/yosemite-el-capitan.jpg' data-lightbox='image-10' data-title="El Capitan">
+                    <img src='images/Asia-US/yosemite-el-capitan.jpg' class='img-thumbnail text-center'>
+                </a>
+                <p class='text-center'>This is a picture of El Capitan. We went camping in Yosemite a few times</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<!-- HERE ARE THE ADDED SCRIPTS AND BOOTSTRAP PLUGINS -->
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script> <script src='Bootstrap source/bootstrap-3.3.7-dist/js/bootstrap.js'></script>
+<script src='lightbox.js'></script><script src='lightbox.min.js'></script><script src='aos.js'></script>
+
+<script type='text/javascript'>
+        AOS.init();
+</script>
+
+<!-- TRYING TO GET LIGHTBOX TO WORK -->
+
+
+
+
+    </body>
+
+
+<footer class='well well-lg'>
+    <h4>Get in touch!</h4>
+    <p>Here's some links to my social media pages</p>
+
+   <a href='https://www.facebook.com/rudeboyska1969'><button type='button' class='btn btn-lg btn-primary animated bounce'><span class="glyphicon glyphicon-thumbs-up"></span> Facebook</button></a>
+    <a href='https://www.instagram.com/taborektravis/'><button type='button' class='btn btn-lg btn-default animated bounce'><span class="glyphicon glyphicon-camera"></span> Instagram</button></a>
+    <a href='https://twitter.com/ttaborek'><button type='button' class='btn btn-lg btn-default animated bounce'><span class="glyphicon glyphicon-envelope"></span> Twitter</button></a>
+
+
+   
+
+    </footer>
+
+
+</html>

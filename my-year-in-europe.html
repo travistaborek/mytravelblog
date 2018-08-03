@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <title>Travis Travel Blog Project</title>
+        <link href='bootstrap.css' rel='stylesheet'>
+        <link href='Bootstrap source/bootstrap-3.3.7-dist/css/bootstrap.min.css' rel='stylesheet'>
+        <link href='stylesheets/main.css' rel='stylesheet'>
+        <link href='animate.css' rel='stylesheet'>
+        <link href='lightbox.css' rel='stylesheet'>
+        <link href='aos.css' rel='stylesheet'>
+        <style>
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+</style>
+    </head>
+
+    <body>
+        <div class='container-fluid text-center text-uppercase'>
+            <div class='row'>
+            <div class='col-md-12 col-lg-12' style="background-image: url(IMG_8807.JPG); background-repeat: no-repeat; opacity: 1;">
+            <a href='index.html'><h1 style="opacity: 1;">Check out the places I've been&#x21;</h1></a>
+            </div>
+            </div>
+        </div>
+       
+
+
+<!-- This is the collapsable navbar I made in BS, I think it might work-->
+
+<div class='navbar navbar-inverse navbar-fixed-top'>
+  <div class='container-fluid navbar'>
+    <div class='navbar-header'>
+  <a href='index.html' class='navbar-brand'>
+    Travis' Travel Blog
+  </a>
+    
+    <button type='button' class='navbar-toggle'
+            data-toggle='collapse'
+            data-target='.navbar-collapse'>
+      <span class='sr-only'>Toggle Navigation</span>
+      <span class='icon-bar'></span>
+      <span class='icon-bar'></span>
+      <span class='icon-bar'></span>
+    </button>
+    </div>
+    
+    
+  <ul class='nav navbar-nav nav-tabs navbar-right collapse navbar-collapse'>
+    <li><a href='early-years.html'>Early Years</a></li>
+    <li><a href='my-year-in-europe.html'>My Year in Europe</a></li>
+    <li><a href='japan.html'>Japan</a></li>
+    <li><a href='new-zealand.html'>New Zealand</a></li>
+    <li><a href='jamaica.html'>Jamaica</a></li>
+  </ul>
+</div>
+</div>
+
+
+
+
+
+
+
+
+<!-- THIS IS MY ATTEMPT IN MAKING A CARAOUSEL -->
+
+<div id='myCarousel' class='carousel slide container full-width' data-interval='3000' data-ride='carousel'>
+    <!-- CAROUSEL INDICATORS -->
+    <ol class='carousel-indicators'>
+        <li data-target='#myCarousel' data-slide-to='0' class='active'>
+        </li>
+        <li data-target='#myCarousel' data-slide-to='1'></li>
+        <li data-target='#myCarousel' data-slide-to='2'></li>
+        <li data-target='#myCarousel' data-slide-to='3'></li>
+        <li data-target='#myCarousel' data-slide-to='4'></li>
+    </ol>
+    <!--Carousel Items -->
+    <div class='carousel-inner'>
+        <div class='item active'>
+            <a href="early-years.html">
+            <img src='images/front-page-photos/alaska-early-years-carousel.jpg' alt='Alaska/Early Years' >
+            <div class='carousel-caption'>
+                <h1>Alaska/Early Years</h1>
+                <p>These are snapshots of places I'd been to before my year in Europe</p>
+            </div>
+            </a>
+        </div>
+        <div class='item '>
+            <img src='images/front-page-photos/rome-pantheon-carousel.jpg' alt="My year in Europe">
+            <div class='carousel-caption'>
+                <h1>My year in Europe</h1>
+                <p>Here you can see photos from the year I spent in Europe during high school</p>
+            </div>
+        </div>
+        <div class='item'>
+            <img src='japan-osaka-carousel.jpg' alt="Studying abroad in Japan">
+            <div class='carousel-caption'>
+                <h1>Japan</h1>
+                <p>I studied in Tokyo at Meiji Gakuin University for my last semester in college. Check it out here&excl;</p>
+            </div>
+        </div>
+        <div class='item'>
+            <img src='images/front-page-photos/nz-hobbit-carousel.jpg' alt="New Zealand">
+            <div class='carousel-caption'>
+                <h1>New Zealand</h1>
+                <p>I went to New Zealand a couple times after college</p>
+            </div>
+        </div>
+        <div class='item'>
+            <img src='images/front-page-photos/jamaica-carousel.jpg' alt="Jamaica">
+            <div class='carousel-caption'>
+                <h1>Jamaica</h1>
+                <p>I spent a week in Montego Bay and hung out by the beach. I went snorkeling and cliffdiving in Negril and spent a day in Kingston to go record collecting</p>
+            </div>
+        </div>
+    </div>
+
+        <!-- Carousel nav -->
+    <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="carousel-control right" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+
+</div>
+
+<!-- BODY COLUMNS -->
+
+<div class='container-fluid'>
+    <div class='row'>
+        <div class='col-md-6 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>Vigeland Sculpture Park</h4>
+                <a href='images/Europe/norway-statue-garden.jpg' data-lightbox='image-1' data-title="Vigeland Sculpture Park in Oslo">
+                    <img src='images/Europe/norway-statue-garden.jpg' class='img-thumbnail' alt="Vigeland Sculpture Park">
+                </a>
+            <p>This is a photo from Vigeland Sculpture Park in Oslo, Norway</p>
+        </div>
+        <div class='col-md-6 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>Rome Forum</h4>
+                <a href='images/Europe/rome-forum.jpg' data-lightbox='image-2' data-title="Roman Forum">
+                    <img src='images/Europe/rome-forum.jpg' class="img-thumbnail" alt="Roman Forum">
+                </a>
+            <p>This is a picture of the Roman Forum</p>
+        </div>
+    </div>
+</div>
+
+<div class='container-fluid'>
+    <div class='row'>
+        <div class="col-md-4 text-center" data-aos='fade-up'>
+            <h4 class='text-center'>Hadrian's Villa</h4>
+                <a href='images/Europe/rome-hadrians-villa.jpg' data-lightbox='image-3' data-title="Hadrians Villa">
+                    <img src='images/Europe/rome-hadrians-villa.jpg' class='img-thumbnail' alt='Hadrians Villa'>
+                </a>
+            <p>We took a daytrip to Hadrian's Villa, about an hour outside of Rome</p>
+        </div>
+        <div class='col-md-4 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>The Pantheon</h4>
+                <a href='images/Europe/rome-pantheon.jpg' data-lightbox='image-4' data-title="The Pantheon">
+                    <img src='images/Europe/rome-pantheon.jpg' class='img-thumbnail' alt="Roman Pantheon">
+                </a>
+            <p>A photo of the Pantheon</p>
+        </div>
+        <div class='col-md-4 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>St Peter's Cathedral</h4>
+                <a href='images/Europe/rome-st-peter-dome.jpg' data-lightbox='image-5' data-title="St Peter's Cathedral">
+                    <img src='images/Europe/rome-st-peter-dome.jpg' class='img-thumbnail' alt="St Peter's Cathedral">
+                </a>
+            <p>A photo of the dome at St. Peter's Cathedral</p>
+        </div>
+    </div>
+</div>
+
+<div class='container-fluid'>
+    <div class='row'>
+        <div class='col-md-7 col-sm-12 text-center' data-aos='flip-left'>
+            <h4 class='text-center'>Friends in Spain</h4>
+                <a href='images/Europe/spanish-friends.jpg' data-lightbox='image-6' data-title="Friends in Spain">
+                    <img src='images/Europe/spanish-friends.jpg' class='img-thumbnail' alt="Spanish Friends">
+                </a>
+            <p>A photo of some friends I made at my school in Spain</p>
+        </div>
+    </div>
+</div>
+
+<div class='container-fluid'>
+    <div class='row'>
+        <div class='col-md-7 col-sm-12 center-block text-center' data-aos='flip-right' style="float: none;"">
+            <h4 class='text-center'>Sweden</h4>
+                <a href='images/Europe/swedish-royal-band.jpg' data-lightbox='image-7' data-title='Swedish Royal Band'>
+                    <img src='images/Europe/swedish-royal-band.jpg' class='img-thumbnail' alt="Swedish Royal Band">
+                </a>
+            <p>We stayed in Stockholm, Sweden for a few days when we went through Scandinavia. This is a picture of the Swedish Royal Band. They had an actual xylophone player.</p>
+        </div>
+    </div>
+</div>
+
+<div class='container-fluid'>
+    <div class='row'>
+        <div class='col-md-7 col-sm-12 pull-right text-center' data-aos='flip-left'>
+            <h4 class='text-center'>Norway</h4>
+                <a href='images/Europe/train-in-norway.jpg' data-lightbox='image-8' data-title='Me on the train in Norway'>
+                    <img src='images/Europe/train-in-norway.jpg' class='img-thumbnail' alt="Me on the Train in Norway">
+                </a>
+            <p>Me on the train in Norway</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<!--These are the javascript plugins-->
+
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script> <script src='Bootstrap source/bootstrap-3.3.7-dist/js/bootstrap.js'></script>
+<script src='lightbox.js'></script><script src='lightbox.min.js'></script><script src='aos.js'></script>
+
+<script type='text/javascript'>
+        AOS.init();
+</script>
+
+<!-- TRYING TO GET LIGHTBOX TO WORK -->
+
+
+
+
+    </body>
+
+
+    <footer class='well well-lg'>
+    <h4>Get in touch!</h4>
+    <p>Here's some links to my social media pages</p>
+
+   <a href='https://www.facebook.com/rudeboyska1969'><button type='button' class='btn btn-lg btn-primary animated bounce'><span class="glyphicon glyphicon-thumbs-up"></span> Facebook</button></a>
+    <a href='https://www.instagram.com/taborektravis/'><button type='button' class='btn btn-lg btn-default animated bounce'><span class="glyphicon glyphicon-camera"></span> Instagram</button></a>
+    <a href='https://twitter.com/ttaborek'><button type='button' class='btn btn-lg btn-default animated bounce'><span class="glyphicon glyphicon-envelope"></span> Twitter</button></a>
+
+   
+
+    </footer>
+
+
+</html>
+

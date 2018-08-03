@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <title>Travis Travel Blog Project</title>
+        <link href='bootstrap.css' rel='stylesheet'>
+        <link href='Bootstrap source/bootstrap-3.3.7-dist/css/bootstrap.min.css' rel='stylesheet'>
+        <link href='stylesheets/main.css' rel='stylesheet'>
+        <link href='animate.css' rel='stylesheet'>
+        <link href='lightbox.css' rel='stylesheet'>
+        <link href='aos.css' rel='stylesheet'>
+        <style>
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+</style>
+    </head>
+
+    <body>
+        <div class='container-fluid text-center text-uppercase'>
+            <div class='row'>
+            <div class='col-md-12 col-lg-12' style="background-image: url(IMG_8807.JPG); background-repeat: no-repeat; opacity: 1;">
+            <a href='index.html'><h1 style="opacity: 1;">Check out the places I've been&#x21;</h1></a>
+            </div>
+            </div>
+        </div>
+
+<div class='navbar navbar-inverse navbar-fixed-top'>
+  <div class='container-fluid navbar'>
+    <div class='navbar-header'>
+  <a href='index.html' class='navbar-brand'>
+    Travis' Travel Blog
+  </a>
+    
+    <button type='button' class='navbar-toggle'
+            data-toggle='collapse'
+            data-target='.navbar-collapse'>
+      <span class='sr-only'>Toggle Navigation</span>
+      <span class='icon-bar'></span>
+      <span class='icon-bar'></span>
+      <span class='icon-bar'></span>
+    </button>
+    </div>
+    
+    
+  <ul class='nav navbar-nav nav-tabs navbar-right collapse navbar-collapse'>
+    <li><a href='early-years.html'>Early Years</a></li>
+    <li><a href='my-year-in-europe.html'>My Year in Europe</a></li>
+    <li><a href='japan.html'>Japan</a></li>
+    <li><a href='new-zealand.html'>New Zealand</a></li>
+    <li><a href='jamaica.html'>Jamaica</a></li>
+  </ul>
+</div>
+</div>
+
+
+<!-- THIS IS MY ATTEMPT IN MAKING A CARAOUSEL -->
+
+<div id='myCarousel' class='carousel slide container full-width' data-interval='3000' data-ride='carousel'>
+    <!-- CAROUSEL INDICATORS -->
+    <ol class='carousel-indicators'>
+        <li data-target='#myCarousel' data-slide-to='0' class='active'>
+        </li>
+        <li data-target='#myCarousel' data-slide-to='1'></li>
+        <li data-target='#myCarousel' data-slide-to='2'></li>
+        <li data-target='#myCarousel' data-slide-to='3'></li>
+        <li data-target='#myCarousel' data-slide-to='4'></li>
+    </ol>
+    <!--Carousel Items -->
+    <div class='carousel-inner'>
+        <div class='item active'>
+            <a href="early-years.html">
+            <img src='images/front-page-photos/alaska-early-years-carousel.jpg' alt='Alaska/Early Years' >
+            <div class='carousel-caption'>
+                <h1>Alaska/Early Years</h1>
+                <p>These are snapshots of places I'd been to before my year in Europe</p>
+            </div>
+            </a>
+        </div>
+        <div class='item'>
+            <img src='images/front-page-photos/rome-pantheon-carousel.jpg' alt="My year in Europe">
+            <div class='carousel-caption'>
+                <h1>My year in Europe</h1>
+                <p>Here you can see photos from the year I spent in Europe during high school</p>
+            </div>
+        </div>
+        <div class='item '>
+            <img src='japan-osaka-carousel.jpg' alt="Studying abroad in Japan">
+            <div class='carousel-caption'>
+                <h1>Japan</h1>
+                <p>I studied in Tokyo at Meiji Gakuin University for my last semester in college. Check it out here&excl;</p>
+            </div>
+        </div>
+        <div class='item'>
+            <img src='images/front-page-photos/nz-hobbit-carousel.jpg' alt="New Zealand">
+            <div class='carousel-caption'>
+                <h1>New Zealand</h1>
+                <p>I went to New Zealand a couple times after college</p>
+            </div>
+        </div>
+        <div class='item'>
+            <img src='images/front-page-photos/jamaica-carousel.jpg' alt="Jamaica">
+            <div class='carousel-caption'>
+                <h1>Jamaica</h1>
+                <p>I spent a week in Montego Bay and hung out by the beach. I went snorkeling and cliffdiving in Negril and spent a day in Kingston to go record collecting</p>
+            </div>
+        </div>
+    </div>
+
+        <!-- Carousel nav -->
+    <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="carousel-control right" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+
+</div>
+
+<!-- BODY IMAGES -->
+
+<div class='container-fluid'>
+    <div class='row'>
+        <div class='col-md-4 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>Maid Cafe</h4>
+                <a href='images/Japan/akihabara-maid-cafe.JPG' data-lightbox='image-1' data-title="Maid Cafe in Akihabara">
+                    <img src='images/Japan/akihabara-maid-cafe.JPG' class='img-thumbnail img-rounded' alt="Maid Cafe, Akihabara">
+                </a>
+            <p>On my last night in Tokyo a friend took me to a maid cafe in Akihabara</p>
+        </div>
+        <div class='col-md-4 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>Crepes in Harajuku</h4>
+                <a href='images/Japan/harajuku-crepe.jpg' data-lightbox='image-2' data-title="Me having a crepe on Takashita Street in Harajuku">
+                    <img src='images/Japan/harajuku-crepe.jpg' class="img-thumbnail img-rounded" alt="Crepes in Harajuku">
+                </a>
+            <p>Me enjoying a crepe in Harajuku</p>
+        </div>
+        <div class='col-md-4 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>Me in a Kimono</h4>
+                <a href='images/Japan/kimono.jpg' data-lightbox='image-3' data-title="Me in a Kimono">
+                    <img src='images/Japan/kimono.jpg' class="img-thumbnail img-rounded" alt="Me in a Kimono">
+                </a>
+            <p>Me dressed in a Kimono</p>
+        </div>
+    </div>
+</div>
+
+<div class='container-fluid'>
+    <div class='row'>
+          <div class='col-md-7 text-center' data-aos='flip-left'>
+            <h4 class='text-center'>Daibutsu in Nara</h4>
+                <a href='nara-buddha.jpg' data-lightbox="image-4" data-title="Daibutsu in Nara">
+                    <img src='nara-buddha.jpg' class="img-thumbnail img-rounded" alt="Me at the Daibutsu in Nara">
+                </a>
+            <p>This is a picture of me by the Daibutsu, the largest buddha statue in Japan, in Nara</p>
+        </div>
+    </div>
+</div>
+<div class='container-fluid'>
+    <div class='row'>
+        <div class="col-md-7 col-sm-12 center-block text-center" data-aos='flip-right' style="float: none;">
+            <h4 class='text-center'>Deer in Nara</h4>
+                <a href='nara-deer.JPG' data-lightbox='image-5' data-title="Deer in Nara">
+                    <img src='nara-deer.JPG' class="img-thumbnail img-rounded" alt="Me at the Daibutsu in Nara">
+                </a>
+            <p>The deer in Nara freely roam and approach toursists</p>
+        </div>
+    </div>
+</div>
+<div class='container-fluid'>
+    <div class='row'>
+        <div class="col-md-7 col-sm-12 pull-right text-center" data-aos='flip-left'>
+            <h4 class='text-center'>Izakaya in Nara</h4>
+                <a href='images/Japan/nara-izakaya.JPG' data-lightbox='image-6' data-title="Izakaya in Nara">
+                    <img src='images/Japan/nara-izakaya.JPG' class="img-thumbnail img-rounded" alt="Me at an izakaya in Nara">
+                </a>
+            <p>Me at an izakaya in Nara with some fellow travelers I met at my hostel</p>
+        </div>
+    </div>
+</div>
+<div class='container-fluid'>
+    <div class='row'>
+        <div class="col-md-7 col-sm-12 pull-right text-center" data-aos='flip-right'>
+            <h4 class='text-center'>Panda at Ueno Zoo</h4>
+                <a href='tokyo-panda.JPG' data-lightbox='image-7' data-title="Panda at Ueno Zoo">
+                    <img src='tokyo-panda.JPG' class="img-thumbnail img-rounded" alt="Me at a zoo in Ueno">
+                </a>
+            <p>One of the pandas at Ueno Zoo in Tokyo</p>
+        </div>
+    </div>
+</div>
+<div class='container-fluid'>
+    <div class='row'>
+        <div class="col-md-7 col-sm-12 center-block text-center" data-aos='flip-left' style="float: none;">
+            <h4 class='text-center'>Bunnies at Okunoshima</h4>
+                <a href='images/Japan/okunoshima-2.jpg' data-lightbox='image-8' data-title="King of Bunny Island">
+                    <img src='images/Japan/okunoshima-2.jpg' class="img-thumbnail img-rounded" alt="Bunnies in Okunoshima">
+                </a>
+            <p>I was briefly the king of Bunny Island at Okunoshima</p>
+        </div>
+    </div>
+</div>
+<div class='container-fluid'>
+    <div class='row'>
+        <div class='col-md-7 text-center' data-aos='flip-left'>
+            <h4 class='text-center'>Osaka Castle</h4>
+                <a href='osaka-castle.JPG' data-lightbox='image-9' data-title="Osaka Castle">
+                    <img src='osaka-castle.JPG' class="img-thumbnail img-rounded" alt="Osaka Castle">
+                </a>
+            <p>Me by Osaka Castle</p>
+        </div>
+    </div>
+</div>
+<div class='container-fluid'>
+    <div class='row'>
+        <div class='col-md-5 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>Mod store in Osaka</h4>
+                <a href='images/Japan/osaka-mod-store.JPG' data-lightbox='image-10' data-title="Mod Store in Osaka">
+                    <img src='images/Japan/osaka-mod-store.JPG' class="img-thumbnail img-rounded" alt="Mod Store in Osaka">
+                </a>
+        </div>
+        <div class='col-md-5 pull-right text-center' data-aos='fade-up'>
+            <h4 class='text-center'>Shabu Shabu with friends</h4>
+                <a href='images/Japan/shabu-shabu.jpg' data-lightbox='image-11' data-title="Shabu shabu with friends">
+                    <img src='images/Japan/shabu-shabu.jpg' class="img-thumbnail img-rounded" alt="Shabu shabu with friends">
+                </a>
+        </div>
+    </div>
+</div>
+<div class='container-fluid'>
+    <div class='row'>
+        <div class='col-md-5 col-offset-2 text-center col-sm-12' data-aos='fade-up'>
+            <h4 class='text-center col-sm-12'>Halloween in Shibuya</h4>
+                <a href='images/Japan/shibuya-halloween-2.jpg' data-lightbox='image-12' data-title="Halloween in Shibuya">
+                    <img src='images/Japan/shibuya-halloween-2.jpg' class="img-thumbnail img-rounded" alt="Halloween in Shibuya">
+                </a>
+            <p>Halloween at Shibuya crossing</p>
+        </div>
+        <div class='col-md-5 pull-right text-center col-sm-12' data-aos='fade-up'>
+            <h4 class='text-center col-sm-12'>Shibuya Halloween</h4>
+                <a href='images/Japan/shibuya-halloween-3.jpg' data-lightbox='image-13' data-title="Halloween in Shibuya">
+                    <img src='images/Japan/shibuya-halloween-3.jpg' class="img-thumbnail img-rounded" alt="Halloween in Shibuya">
+                </a>
+            <p>Halloween in Shibuya</p>
+        </div>
+    </div>
+</div>      
+
+<!--These are the javascript plugins-->
+
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script> <script src='Bootstrap source/bootstrap-3.3.7-dist/js/bootstrap.js'></script>
+<script src='lightbox.js'></script><script src='lightbox.min.js'></script><script src='aos.js'></script>
+
+<script type='text/javascript'>
+        AOS.init();
+</script>
+
+<!-- TRYING TO GET LIGHTBOX TO WORK -->
+
+
+
+
+    </body>
+
+
+    <footer class='well well-lg'>
+    <h4>Get in touch!</h4>
+    <p>Here's some links to my social media pages</p>
+
+  <a href='https://www.facebook.com/rudeboyska1969'><button type='button' class='btn btn-lg btn-primary animated bounce'><span class="glyphicon glyphicon-thumbs-up"></span> Facebook</button></a>
+    <a href='https://www.instagram.com/taborektravis/'><button type='button' class='btn btn-lg btn-default animated bounce'><span class="glyphicon glyphicon-camera"></span> Instagram</button></a>
+    <a href='https://twitter.com/ttaborek'><button type='button' class='btn btn-lg btn-default animated bounce'><span class="glyphicon glyphicon-envelope"></span> Twitter</button></a>
+
+   
+
+    </footer>
+
+
+</html>
+

@@ -1,0 +1,789 @@
+body {
+    background-color: #faebd7;
+}
+
+/*)
+.container {
+    background-image: url(../images/tokyo-sunset-resized.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 400px;
+    margin: 0 auto;
+}
+
+*/
+
+body {
+    background-color: #7AF5F5;
+    background: repeating-linear-gradient(45deg, #7AF5F5, #faebd7, #7AF5F5, #faebd7, #7AF5F5, #faebd7);
+}
+
+.container-fluid .row .col-md-12 {
+    height: 500px;
+}
+
+.container-fluid .col-md-12 h1 {
+    align-self: middle;
+    display: inline-block;
+    text-decoration: underline;
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    background-size: 100;
+    height: 100px;
+    text-align: center;
+    object-fit: stretch;
+    padding: 0.5em 0 0.8em 0;
+    margin-right: 0;
+    margin-left: 0;
+    opacity: 1;
+}
+
+.container-fluid .col-md-4 h2 {
+    align-self: middle;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: underline;
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    background-size: auto;
+    font-size: 3.5em;
+    height: auto;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: 1;
+    padding: 0 1em;
+    text-transform: uppercase;
+    transition: all 0.8s;
+}
+
+/*  CONVERTING H2 TO H3 */
+
+.container-fluid .col-md-4 h3 {
+    align-self: middle;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: underline;
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    background-size: auto;
+    font-size: 3.5em;
+    height: auto;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: 1;
+    padding: 0 1em;
+    text-transform: uppercase;
+    transition: all 0.8s;
+}
+
+.container-fluid .col-md-5 h3 {
+     align-self: middle;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: underline;
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    background-size: auto;
+    font-size: 3.5em;
+    height: auto;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: 1;
+    padding: 0 1em;
+    text-transform: uppercase;
+    transition: all 0.8s;
+}
+
+.container-fluid .col-md-6 h3  {
+    align-self: middle;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: underline;
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    background-size: auto;
+    font-size: 3.5em;
+    height: auto;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: 1;
+    padding: 0 1em;
+    text-transform: uppercase;
+    transition: all 0.8s;
+}
+
+.container-fluid .col-md-7 h3 {
+     align-self: middle;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: underline;
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    background-size: auto;
+    font-size: 3.5em;
+    height: auto;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: 1;
+    padding: 0 1em;
+    text-transform: uppercase;
+    transition: all 0.8s;
+}
+
+.container-fluid .col-md-8 h3 {
+     align-self: middle;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: underline;
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    background-size: auto;
+    font-size: 3.5em;
+    height: auto;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: 1;
+    padding: 0 1em;
+    text-transform: uppercase;
+    transition: all 0.8s;
+}
+
+/* h4 styles */
+
+.container-fluid .col-md-4 h4 {
+    align-self: middle;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: underline;
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    background-size: auto;
+    font-size: auto;
+    height: auto;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: 1;
+    padding: 0 1em;
+    text-transform: uppercase;
+    transition: all 0.8s;
+}
+
+.container-fluid .col-md-5 h4 {
+     align-self: middle;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: underline;
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    background-size: auto;
+    font-size: 2em;
+    height: auto;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: 1;
+    padding: 0 1em;
+    text-transform: uppercase;
+    transition: all 0.8s;
+}
+
+.container-fluid .col-md-6 h4  {
+    align-self: middle;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: underline;
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    background-size: auto;
+    font-size: auto;
+    height: auto;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: 1;
+    padding: 0 1em;
+    text-transform: uppercase;
+    transition: all 0.8s;
+}
+
+.container-fluid .col-md-7 h4 {
+     align-self: middle;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: underline;
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    background-size: auto;
+    font-size: 2em;
+    height: auto;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: 1;
+    padding: 0 1em;
+    text-transform: uppercase;
+    transition: all 0.8s;
+}
+
+.container-fluid .col-md-8 h4 {
+     align-self: middle;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: underline;
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    background-size: auto;
+    font-size: auto;
+    height: auto;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: 1;
+    padding: 0 1em;
+    text-transform: uppercase;
+    transition: all 0.8s;
+}
+
+/* END H4 STYLES */
+
+
+.container-fluid .col-md-6 h2 {
+    align-self: middle;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: underline;
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    background-size: auto;
+    font-size: 3.5em;
+    height: auto;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: 1;
+    padding: 0 1em;
+    text-transform: uppercase;
+    transition: all 0.8s;
+}
+
+.container-fluid .col-md-8 h2 {
+    align-self: middle;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: underline;
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    background-size: auto;
+    font-size: 3.5em;
+    text-align: center;
+    margin-right: 0;
+    margin-left: 0;
+    opacity: 1;
+    padding: 0 1em;
+    text-transform: uppercase;
+    transition: all 0.8s;
+}
+
+.container-fluid .navbar {
+    background-color: none;
+    display: none;
+}
+
+.container-fluid h1 {
+    margin-top: 15%;
+    font-size: 300%;
+}
+
+
+.row .col-md-8 {
+    height: 100%;
+}
+
+/*
+.row .col-md-8 {
+    background-color: #93E2D5;
+    background: linear-gradient(to bottom, #93E2D5, #89e894);
+}
+*/
+
+
+.row h1 {
+    font-weight: bold;
+}
+
+.row .col-md-8 h2 {
+    display: inline-block;
+    text-align: center;
+    font-size: 50pt;
+}
+
+.row .col-md-8 p {
+    font-size: 14pt;
+}
+
+.sidebar {
+    display: inline-block;
+    border: 3px black solid;
+    border-right: 0;
+    font-size: 8pt;
+    margin-top: 150px;
+    background-color: #FFFFFF;
+    color: #000000;
+    box-shadow: 3px 3px 4px #000;
+}
+
+
+.row .col-md-4 img {
+    display: block;
+    border-radius: 30px;
+    height: 80%; 
+    width: 70%; 
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 5%;
+}
+
+
+.row .col-md-4 h2 {
+    text-align:center;
+    font-size: 25pt;
+
+}
+
+.row .col-md-8 img {
+    border-radius: 30px;
+    height: 30%; 
+    width: 60%; 
+    object-fit: contain;
+    float: left;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.row .col-md-8 p {
+    float: right;
+    width: 30%;
+    margin-left: 50px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.row .col-md-5 img {
+    display: inline;
+    border-radius: 30px;
+    height: 60%; 
+    width: 100%; 
+    object-fit: contain;
+    float: left;
+}
+
+.row .col-md-5 p {
+    display: inline;
+    height: 40%;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 0;
+    margin-left: 15px;
+}
+
+.row .col-md-5 h2 {
+    align-self: middle;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: underline;
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    background-size: auto;
+    font-size: 3.5em;
+    text-align: center;
+    margin-right: 0;
+    margin-left: 0;
+    opacity: 1;
+    padding: 0 1em;
+    text-transform: uppercase;
+    transition: all 0.8s;
+}
+
+.row .col-md-7 p {
+    display: inline;
+    float: right;
+    width: 20%;
+    margin: 0 auto;
+    margin-left: 15px;
+}
+
+.row .container-fluid .col-md-7 img {
+    display: inline;
+    border-radius: 30px;
+    height: 60%; 
+    width: 50%; 
+    object-fit: contain;
+    float: left;
+    margin-bottom: 10%;
+}
+.row .col-md-7 p {
+    text-align:center;
+    width: 100%;
+    display: block;
+    margin-top: 0 auto;
+}
+
+.row .col-md-7 h2 {
+    align-self: middle;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: underline;
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    background-size: auto;
+    font-size: 3.5em;
+    text-align: center;
+    margin-right: 0;
+    margin-left: 0;
+    opacity: 1;
+    padding: 0 1em;
+    text-transform: uppercase;
+    transition: all 0.8s;
+}
+
+/* AFFECTS FOOTER H2
+h2 {
+    align-self: middle;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: underline;
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    background-size: auto;
+    font-size: 3.5em;
+    text-align: center;
+    margin-right: 0;
+    margin-left: 0;
+    opacity: 1;
+    padding: 0 1em;
+    text-transform: uppercase;
+    transition: all 0.8s;
+}
+*/
+.row .col-md-12 {
+    background-image: url(../images/tokyo-sunset-resized.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 500px;
+    width: 100%;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    /*
+    opacity: 0.5;
+    */
+}
+
+
+/* STYLING FOR WELLS AND BUTTONS */
+
+.well {
+    border: ;
+}
+
+.well .btn:hover {
+    cursor: pointer;
+
+}
+
+/* NAVBAR STYLINGS */
+
+.container-fluid .navbar {
+    background-color: white;
+
+}
+
+.navbar .navbar-brand {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+/* CAROUSEL STYLINGS  */
+
+/*
+.carousel .slide .container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+.item img {
+    object-fit: contain;
+    max-height: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+*/
+
+
+/* THIS ONE WORKED BETTER 
+.carousel-inner .item img {
+    height: 75%; 
+    width: 75%; 
+    object-fit: contain;
+    margin-bottom: 5%;
+}
+
+*/
+
+.carousel {
+    height: 500px;
+}
+
+.carousel-inner {
+    background-image: none;
+    background-repeat: no-repeat;
+    height: 500px;
+
+
+}
+
+.carousel-inner .item {
+    width: 100%;
+    height: 100%;
+}
+
+
+.carousel-inner .item img {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+/* MEDIA QUERIES */
+
+
+
+@media screen and (max-width: 480px) {
+
+    /* .row 7 DIVS */
+    .row .col-md-7 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .row .col-md-7 img {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    /* ROW 8 DVIS */
+    .row .col-md-8 {
+        width: 100%;
+    }
+    .row .col-md-8 img{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .row .col-md-8 p {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .sidebar {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 680px) {
+
+    .row .col-md-7 {
+        width: 100%;
+        margin: 10px auto;
+        margin-left: 0;
+
+    }
+    .row .col-md-8 {
+        width: 100%;
+        display: inline-block;
+    }
+    .row .col-md-8 img {
+        width: 60%;
+        height: 1000%;
+        margin: auto;
+        margin-right: 10px;
+        margin-top: auto;
+        margin-bottom: 15px;
+    }
+    .row .col-md-8 p {
+        width: 30%;
+        margin-top: auto;
+        margin: 10px auto;
+    }
+
+    .row .col-md-8 h2 {
+    display: inline-block;
+     margin: auto;
+     height: 10%;
+     
+     margin-bottom: 15px;   
+     text-transform: uppercase;
+     text-align: center;
+    }
+}
+
+
+@media screen and (min-width: 680px) and (max-width: 1024px) {
+    .row .col-md-8 {
+        width: 100%;
+        display: inline-block;
+    }
+
+    .row .col-md-8 img {
+        display: inline;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .row .col-md-8 p {
+        width: 40%;
+        display: inline;
+        margin: 0 auto;
+        margin-left: 15px;
+
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 680px) {
+    .sidebar {
+        display: none;
+    }
+
+}
+
+
+/* ANIMATION STYLINSG */
+
+.row .col-md-4 h2:hover {
+    color: #FFFFFF;
+    background-color: #696969;
+}
+
+.row .col-md-5 h2:hover {
+    color: #FFFFFF;
+    background-color: #696969;
+}
+
+.container-fluid .col-md-6 h2:hover {
+    color: #FFFFFF;
+    background-color: #696969;
+}
+
+.row .col-md-7 h2:hover {
+    color: #FFFFFF;
+    background-color: #696969;
+}
+
+
+.row .col-md-8 h2:hover {
+    color: #FFFFFF;
+    background-color: #696969;
+}
+
+.row h2: hover {
+    color: #FFFFFF;
+    background-color: #696969;
+}
+
+
+
+/* MY OWN ANIMATION STYLINGS  */
+
+
+
+.btn:hover {
+    animation: bounce 1.5s infinite;
+    -webkit-animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateX(-15px);
+    }
+}
+
+@-webkit-keyframes bounce {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateX(-15px);
+    }
+}
+
+
+
+/* FONTS */
+
+h1, h2,  h3, h4 {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+p {
+    font-family: helvetica, arial, sans-serif;
+}
+
+
+/* FINAL STYLINGS TO CLEAN UP */
+
+.row .col-md-4 img {
+    margin-bottom: 5px;
+}
+
+.row .col-md-5 {
+    margin-bottom: 5px;
+}
+
+.row .col-md-5 img {
+    margin-bottom: 5px;
+}
+
+.row .col-md-6 img{
+    margin-bottom: 5px;
+}
+
+.row .col-md-7 img{
+    margin-bottom: 5px;
+}

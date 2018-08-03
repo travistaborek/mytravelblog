@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <title>Travis Travel Blog Project</title>
+        <link href='bootstrap.css' rel='stylesheet'>
+        <link href='Bootstrap source/bootstrap-3.3.7-dist/css/bootstrap.min.css' rel='stylesheet'>
+        <link href='stylesheets/main.css' rel='stylesheet'>
+        <link href='animate.css' rel='stylesheet'>
+        <link href='lightbox.css' rel='stylesheet'>
+        <link href='aos.css' rel='stylesheet'>
+        <style>
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+</style>
+    </head>
+
+    <body>
+        <div class='container-fluid text-center text-uppercase'>
+            <div class='row'>
+            <div class='col-md-12 col-lg-12' style="background-image: url(IMG_8807.JPG); background-repeat: no-repeat; opacity: 1;">
+            <a href='index.html'><h1 style="opacity: 1;">Check out the places I've been&#x21;</h1></a>
+            </div>
+            </div>
+        </div>
+       
+
+
+<!-- This is the collapsable navbar I made in BS, I think it might work-->
+
+<div class='navbar navbar-inverse navbar-fixed-top'>
+  <div class='container-fluid navbar'>
+    <div class='navbar-header'>
+  <a href='index.html' class='navbar-brand'>
+    Travis' Travel Blog
+  </a>
+    
+    <button type='button' class='navbar-toggle'
+            data-toggle='collapse'
+            data-target='.navbar-collapse'>
+      <span class='sr-only'>Toggle Navigation</span>
+      <span class='icon-bar'></span>
+      <span class='icon-bar'></span>
+      <span class='icon-bar'></span>
+    </button>
+    </div>
+    
+    
+  <ul class='nav navbar-nav nav-tabs navbar-right collapse navbar-collapse'>
+    <li><a href='early-years.html'>Early Years</a></li>
+    <li><a href='my-year-in-europe.html'>My Year in Europe</a></li>
+    <li><a href='japan.html'>Japan</a></li>
+    <li><a href='new-zealand.html'>New Zealand</a></li>
+    <li><a href='jamaica.html'>Jamaica</a></li>
+  </ul>
+</div>
+</div>
+
+
+
+
+
+
+
+
+<!-- THIS IS MY ATTEMPT IN MAKING A CARAOUSEL -->
+
+<div id='myCarousel' class='carousel slide container full-width' data-interval='3000' data-ride='carousel'>
+    <!-- CAROUSEL INDICATORS -->
+    <ol class='carousel-indicators'>
+        <li data-target='#myCarousel' data-slide-to='0' class='active'>
+        </li>
+        <li data-target='#myCarousel' data-slide-to='1'></li>
+        <li data-target='#myCarousel' data-slide-to='2'></li>
+        <li data-target='#myCarousel' data-slide-to='3'></li>
+        <li data-target='#myCarousel' data-slide-to='4'></li>
+    </ol>
+    <!--Carousel Items -->
+    <div class='carousel-inner'>
+        <div class='item active'>
+            <a href="early-years.html">
+            <img src='images/front-page-photos/alaska-early-years-carousel.jpg' alt='Alaska/Early Years' >
+            <div class='carousel-caption'>
+                <h1>Alaska/Early Years</h1>
+                <p>These are snapshots of places I'd been to before my year in Europe</p>
+            </div>
+            </a>
+        </div>
+        <div class='item'>
+            <a href="my-year-in-europe.html">
+            <img src='images/front-page-photos/rome-pantheon-carousel.jpg' alt="My year in Europe">
+            <div class='carousel-caption'>
+                <h1>My year in Europe</h1>
+                <p>Here you can see photos from the year I spent in Europe during high school</p>
+            </div>
+            </a>
+        </div>
+        <div class='item'>
+            <img src='japan-osaka-carousel.jpg' alt="Studying abroad in Japan">
+            <div class='carousel-caption'>
+                <h1>Japan</h1>
+                <p>I studied in Tokyo at Meiji Gakuin University for my last semester in college. Check it out here&excl;</p>
+            </div>
+        </div>
+        <div class='item'>
+            <img src='images/front-page-photos/nz-hobbit-carousel.jpg' alt="New Zealand">
+            <div class='carousel-caption'>
+                <h1>New Zealand</h1>
+                <p>I went to New Zealand a couple times after college</p>
+            </div>
+        </div>
+        <div class='item'>
+            <img src='images/front-page-photos/jamaica-carousel.jpg' alt="Jamaica">
+            <div class='carousel-caption'>
+                <h1>Jamaica</h1>
+                <p>I spent a week in Montego Bay and hung out by the beach. I went snorkeling and cliffdiving in Negril and spent a day in Kingston to go record collecting</p>
+            </div>
+        </div>
+    </div>
+
+        <!-- Carousel nav -->
+    <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="carousel-control right" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+
+</div>
+
+ <!-- END CAROUSEL -->
+
+
+ 
+
+<div class='container-fluid'>
+    <div class='row'>
+        <div class='col-md-4 col-sm-12 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>My hostel</h4>
+                <a href='images/Jamaica/1-Hostel.JPG' data-lightbox='image-1' data-title="My hostel in Montego Bay">
+                    <img src='images/Jamaica/1-Hostel.JPG' class="img-thumbnail img-rounded" alt="My Hostel in Montego Bay">
+                </a>
+            <p>This is a picture of me at my hostel in Montego Bay</p>
+        </div>
+        <div class='col-md-4 col-sm-12 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>Scotchies Jerk Shack</h4>
+                <a href='images/Jamaica/2-scotchies.JPG' data-lightbox='image-2' data-title="Scotchies Jerk Shack">
+                    <img src='images/Jamaica/2-scotchies.JPG' class="img-thumbnail img-rounded" alt="Scotchies Jerk Shack">
+                </a>
+            <p>Scotchies Jerk Shack outside Montego</p>
+        </div>
+        <div class='col-md-4 col-sm-12 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>Hostel friends</h4>
+                <a href='images/Jamaica/3-hostel friends.JPG' data-lightbox='image-3' data-title="Hostel Friends">
+                    <img src='images/Jamaica/3-hostel friends.JPG' class="img-thumbnail img-rounded" alt="Hostel Friends">
+                </a>
+            <p>Some friends I me at my hostel</p>
+        </div>
+    </div>
+</div>
+
+
+
+<div class='container-fluid'>
+    <div class='row'>
+        <div class='col-md-4 col-sm-12 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>Doctors Cave Beach</h4>
+                <a href='images/Jamaica/4-doctors-cave.JPG' data-lightbox='image-4' data-title="Doctors Cave Beach">
+                    <img src='images/Jamaica/4-doctors-cave.JPG' class="img-thumbnail img-rounded" alt="Doctors Cave Beach">
+                </a>
+            <p>This is a picture of me at my hostel in Montego Bay</p>
+        </div>
+        <div class='col-md-4 col-sm-12 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>Dragon Stout</h4>
+                <a href='images/Jamaica/5-dragon-stout.JPG' data-lightbox='image-5' data-title="First bottle of Dragon Stout">
+                    <img src='images/Jamaica/5-dragon-stout.JPG' class="img-thumbnail img-rounded" alt="First bottle of Dragon Stout">
+                </a>
+            <p>Me and my first bottle of Dragon Stout. I wanted to try this delicious beer since I was a kid.</p>
+        </div>
+        <div class='col-md-4 col-sm-12 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>Me at the beach</h4>
+                <a href='6-coconut.jpg' data-lightbox='image-6' data-title="Me at the beach">
+                    <img src='6-coconut.jpg' class="img-thumbnail img-rounded" alt="Me at the beach">
+                </a>
+            <p>Me drinking coconut water</p>
+        </div>
+    </div>
+</div>
+
+<div class='container-fluid'>
+    <div class='row'>
+        <div class='col-md-4 col-sm-12 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>Hostel Pool</h4>
+                <a href='images/Jamaica/7-pool.JPG' data-lightbox='image-7' data-title="Hostel pool">
+                    <img src='images/Jamaica/7-pool.JPG' class="img-thumbnail img-rounded" alt="Hostel Pool">
+                </a>
+            <p>A picture of the pool by my hostel with the Jamaican Flag in the background</p>
+        </div>
+        <div class='col-md-4 col-sm-12 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>By the beach</h4>
+                <a href='images/Jamaica/8-beach.JPG' data-lightbox='image-8' data-title="Chilling by the beach">
+                    <img src='images/Jamaica/8-beach.JPG' class="img-thumbnail img-rounded" alt="Chilling by the beach">
+                </a>
+            <p>Chilling by the beach at Lover's Park.</p>
+        </div>
+        <div class='col-md-4 col-sm-12 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>Dragon Spitfire</h4>
+                <a href='images/Jamaica/9-dragon-spitfire.JPG' data-lightbox='image-9' data-title="Dragon Spitfire">
+                    <img src='images/Jamaica/9-dragon-spitfire.JPG' class="img-thumbnail img-rounded" alt="Dragon Spitfire">
+                </a>
+            <p>Home is where you can hang your hat and find some Dragon Spitfire</p>
+        </div>
+    </div>
+</div>
+
+<div class='container-fluid'>
+    <div class='row'>
+        <div class='col-md-4 col-sm-12 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>Snorkeling at Negril</h4>
+                <a href='images/Jamaica/10-negril-snorkeling.JPG' data-lightbox='image-10' data-title="Snorkeling at Negril">
+                    <img src='images/Jamaica/10-negril-snorkeling.JPG' class="img-thumbnail img-rounded" alt="Snorkeling at Negril">
+                </a>
+            <p>Snorkeling in Negril</p>
+        </div>
+        <div class='col-md-4 col-sm-12 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>Snorkeling at Negril</h4>
+                <a href='images/Jamaica/11-negril-snorkeling.JPG' data-lightbox='image-11' data-title="Snorkeling at Negril">
+                    <img src='images/Jamaica/11-negril-snorkeling.JPG' class="img-thumbnail img-rounded" alt="Snorkeling at Negril">
+                </a>
+            <p>I took a daytrip to Negril to go snorkeling.</p>
+        </div>
+        <div class='col-md-4 col-sm-12 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>Three Dives Jerk Centre</h4>
+                <a href='images/Jamaica/12-three-dives.JPG' data-lightbox='image-12' data-title="Three Dives Jerk Centre">
+                    <img src='images/Jamaica/12-three-dives.JPG' class="img-thumbnail img-rounded" alt="Three Dives Jerk Centre">
+                </a>
+            <p>Three Dives Jerk Centre, a famous jerk restaurant in Negril</p>
+        </div>
+    </div>
+</div>
+
+<div class='container-fluid'>
+    <div class='row'>
+        <div class='col-md-4 col-sm-12 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>Three Dives Jerk Centre</h4>
+                <a href='images/Jamaica/13-three-dives.JPG' data-lightbox='image-13' data-title="Three Dives Jerk CEntre">
+                    <img src='images/Jamaica/13-three-dives.JPG' class="img-thumbnail img-rounded" alt="Three Dives Jerk Centre">
+                </a>
+            <p>Looking at the ocean, enjoying a Dragon and a plate of steamed conch with jerk sauce. The food in Jamaica is nothing short of <em>incredible.</em></p>
+        </div>
+        <div class='col-md-4 col-sm-12 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>Rick's Cafe</h4>
+                <a href='images/Jamaica/14-ricks-cafe.JPG' data-lightbox='image-14' data-title="Rick's Cafe">
+                    <img src='images/Jamaica/14-ricks-cafe.JPG' class="img-thumbnail img-rounded" alt="Snorkeling at Negril">
+                </a>
+            <p>Rick's Cafe, a famous tourist destination in Negril.</p>
+        </div>
+        <div class='col-md-4 col-sm-12 col-xs-12 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>Jumping the cliff</h4>
+                <video src="15-cliff-jump.MOV" controls="controls" height="200" width="350">
+                Sorry, but your browser doesn't support embedded videos. Try using chrome
+                </video>
+            <p>I jumped off a cliff!</p>
+        </div>
+    </div>
+</div>
+
+<div class='container-fluid'>
+    <div class='row'>
+        <div class='col-md-4 col-sm-12 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>Rick's Cliff</h4>
+                <a href='images/Jamaica/16-cliff.JPG' data-lightbox='image-15' data-title="Rick's Cliff">
+                    <img src='images/Jamaica/16-cliff.JPG' class="img-thumbnail img-rounded" alt="Rick's Cliff">
+                </a>
+            <p>The drop from the cliff at Rick's Cafe</p>
+        </div>
+        <div class='col-md-4 col-sm-12 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>Reggae Hostel</h4>
+                <a href='17-reggae-hostel.jpg' data-lightbox='image-16' data-title="Reggae Hostel">
+                    <img src='17-reggae-hostel.jpg' class="img-thumbnail img-rounded" alt="Reggae Hostel">
+                </a>
+            <p>I spent a day in Kingston to go record collecting. I stayed in Reggae Hostel in Half-Way Tree in uptown Kingston</p>
+        </div>
+        <div class='col-md-4 col-sm-12 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>Reggae Hostel</h4>
+                <a href='images/Jamaica/18-reggae-hostel.JPG' data-lightbox='image-17' data-title="Reggae Hostel">
+                    <img src='images/Jamaica/18-reggae-hostel.JPG' class="img-thumbnail img-rounded" alt="Reggae Hostel">
+                </a>                
+            <p>Rasta graffiti all over the walls. All the rooms were named after different genres of Jamaican music (ska, mento, dancehall etc.)</p>
+        </div>
+    </div>
+</div>
+
+
+<div class='container-fluid'>
+    <div class='row'>
+        <div class='col-md-4 col-sm-12 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>Derrick Harriot's Record Shop</h4>
+                <a href='images/Jamaica/19-derrick-harriot.JPG' data-lightbox='image-18' data-title="Derrick Harriot's Record Shop">
+                    <img src='images/Jamaica/19-derrick-harriot.JPG' class="img-thumbnail img-rounded" alt="Derrick Harriot's Record Shop">
+                </a>
+            <p>My hostel was around the corner from a record shop owned by Derrick Harriott, the Jamaican singer and producer known for such classics as "The Loser" and "Do I Wory". I went twice and it was closed both times, but it was still cool to see it.</p>
+        </div>
+        <div class='col-md-4 col-sm-12 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>Me and Lucas</h4>
+                <a href='images/Jamaica/20-me-and-lucas.JPG' data-lightbox='image-19' data-title="Me and Lucas">
+                    <img src='images/Jamaica/20-me-and-lucas.JPG' class="img-thumbnail img-rounded" alt="Me and Lucas">
+                </a>
+            <p>Me and my friend Lucas, a Swiss ex-patriot and rastafarian who has lived in Kingston since the 60's. He is a record collector and the biggest ebay seller of Jamaican records on the island. One of the coolest people I've ever met. Oh and he sold me the first records I've ever owned.</p>
+        </div>
+        <div class='col-md-4 col-sm-12 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>My first records</h4>
+                <a href='images/Jamaica/21-guns-fever.JPG' data-lightbox='image-20' data-title="Guns Fever">
+                    <img src='images/Jamaica/21-guns-fever.JPG' class="img-thumbnail img-rounded" alt="Guns Fever">
+                </a>                
+            <p>What I'm holding here in my hands is the very first recording of Guns Fever by Baba Brooks, a ska classic. Almost a year later and I still can't believe that this is something I have.</p>
+        </div>
+    </div>
+</div>
+
+<div class='container-fluid'>
+    <div class='row'>
+        <div class='col-md-4 col-sm-12 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>My first LP</h4>
+                <a href='images/Jamaica/22-ska-LP.JPG' data-lightbox='image-21' data-title="My first LP, The Birth of Ska">
+                    <img src='images/Jamaica/22-ska-LP.JPG' class="img-thumbnail img-rounded" alt="My First LP, the Birth of Ska">
+                </a>
+            <p>My first LP, the Birth of Ska. There are not many places in Jamaica where you can get vintage records like this anymore, but they're still around if you know where to go and who to talk to.</p>
+        </div>
+        <div class='col-md-4 col-sm-12 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>Vinyl Thursday Food Truck</h4>
+                <a href='images/Jamaica/23-food-truck.JPG' data-lightbox='image-22' data-title="Vinyl Thursday Food Truck">
+                    <img src='images/Jamaica/23-food-truck.JPG' class="img-thumbnail img-rounded" alt="Vinyl Thursday Food Truck">
+                </a>
+            <p>I went to a vinyl night in Kingston called Vinyl Thursdays, that night they were playing roots reggae and dub. There was a food truck outside serving vegan food, and I got to try ackee and callaloo for the first time.</p>
+        </div>
+        <div class='col-md-4 col-sm-12 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>Vinyl Thursdays in Kingston</h4>
+                <video src="images/Jamaica/24-vinyl-thursdays.MOV" controls="controls" height="200" width="350">
+                Sorry, but your browser doesn't support embedded videos. Try using chrome
+                </video>             
+            <p>One of the coolest things I've ever been to.</p>
+        </div>
+    </div>
+</div>
+
+<div class='container-fluid'>
+    <div class='row'>
+        <div class='col-md-4 col-sm-12 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>The selectors</h4>
+                <a href='images/Jamaica/25-vinyl-thursdays.JPG' data-lightbox='image-23' data-title="Selectors at Vinyl Thursday">
+                    <img src='images/Jamaica/25-vinyl-thursdays.JPG' class="img-thumbnail img-rounded" alt="Selectors at Vinyl Thursday">
+                </a>
+            <p>That night they had guest selectors from Austria</p>
+        </div>
+        <div class='col-md-4 col-sm-12 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>Rastas dancing to roots</h4>
+                <video src="images/Jamaica/26-vinyl-thursdays.MOV" controls="controls" height="200" width="350">
+                Sorry, but your browser doesn't support embedded videos. Try using chrome
+                </video>       
+            <p>Rastas dancing to roots natty roots</p>
+        </div>
+        <div class='col-md-4 col-sm-12 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>Rockers International</h4>
+                <a href='images/Jamaica/27-rockers-international.JPG' data-lightbox='image-24' data-title="Rockers International">
+                    <img src='images/Jamaica/27-rockers-international.JPG' class="img-thumbnail img-rounded" alt="Rockers International">
+                </a>          
+            <p>I visited Rockers International record shop on Orange Street, downtown Kingston.</p>
+        </div>
+    </div>
+</div>
+
+<div class='container-fluid'>
+    <div class='row'>
+        <div class='col-md-4 col-sm-12 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>More records</h4>
+                <a href='images/Jamaica/28-rockers-international.JPG' data-lightbox='image-25' data-title="More records">
+                    <img src='images/Jamaica/28-rockers-international.JPG' class="img-thumbnail img-rounded" alt="More records">
+                </a>
+            <p>I got more records at Rockers International, including this 45 of Cinderella in Black by Augustus Pablo. Augustus Pablo was one of the artists I got a lot of exposure to and was turned on to during my stay. I've since been trying to teach myself to play the melodica.</p>
+        </div>
+        <div class='col-md-4 col-sm-12 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>I-Bo Spice</h4>
+                <a href='images/Jamaica/29-i-bo-spice.JPG' data-lightbox='image-26' data-title="I-Bo Spice">
+                    <img src='images/Jamaica/29-i-bo-spice.JPG' class="img-thumbnail img-rounded" alt="I-Bo Spice">
+                </a>          
+            <p>I-Bo Spice, an ital restaurant on Orange Street.</p>
+        </div>
+        <div class='col-md-4 col-sm-12 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>I-Bo Spice</h4>
+                <a href='images/Jamaica/30-i-bo-spice.JPG' data-lightbox='image-27' data-title="A shrine to Haile Selassie">
+                    <img src='images/Jamaica/30-i-bo-spice.JPG' class="img-thumbnail img-rounded" alt="A shrine to Haile Selassie">
+                </a>
+            <p>A shrine to Haile Selassie at I-Bo Spice.</p>
+        </div>
+    </div>
+</div>
+
+<div class='container-fluid'>
+    <div class='row'>        
+        <div class='col-md-4 col-sm-12 text-center' data-aos='fade-up'>
+            <h4 class='text-center'>Prince Buster's Record Shack</h4>
+                <a href='images/Jamaica/31-prince-buster.JPG' data-lightbox='image-28' data-title="Prince Buster's Record Shack">
+                    <img src='images/Jamaica/31-prince-buster.JPG' class="img-thumbnail img-rounded" alt="Prince Buster's Record Shack">
+                </a>     
+            <p>Outside Prince Buster's Record Shack on Orange Street. I wanted to visit this spot since I was 17 years old.</p>
+        </div>
+        <div class="col-md-4 col-sm-12 text-center" data-aos='fade-up'>
+            <h4 class='text-center'>Saltfish</h4>
+                <a href='32-saltfish.jpg' data-lightbox='image-29' data-title="Saltfish">
+                    <img src='32-saltfish.jpg' class="img-thumbnail img-rounded" alt="Saltfish">
+                </a>          
+            <p>My first taste of saltfish</p>
+        </div>
+         <div class="col-md-4 col-sm-12 text-center">
+            <h4 class='text-center'>Goodbye Jamaica</h4>
+                <a href='images/Jamaica/33-goodbye-jamaica.JPG' data-lightbox='image-30' data-title="Goodbye Jamaica">
+                    <img src='images/Jamaica/33-goodbye-jamaica.JPG' class="img-thumbnail img-rounded" alt="Goodbye Jamaica">
+                </a>
+            <p>My last day in Jamaica. Travis was here, rude bway nuh fear!</p>
+        </div>
+    </div>
+</div>
+      
+
+<!--These are the javascript plugins-->
+
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script> <script src='Bootstrap source/bootstrap-3.3.7-dist/js/bootstrap.js'></script>
+<script src='lightbox.js'></script><script src='lightbox.min.js'></script><script src='aos.js'></script>
+
+<script type='text/javascript'>
+        AOS.init();
+</script>
+
+<!-- TRYING TO GET LIGHTBOX TO WORK -->
+
+
+
+
+    </body>
+
+
+    <footer class='well well-lg'>
+    <h4>Get in touch!</h4>
+    <p>Here's some links to my social media pages</p>
+
+    <a href='https://www.facebook.com/rudeboyska1969'><button type='button' class='btn btn-lg btn-primary animated bounce'><span class="glyphicon glyphicon-thumbs-up"></span> Facebook</button></a>
+    <a href='https://www.instagram.com/taborektravis/'><button type='button' class='btn btn-lg btn-default animated bounce'><span class="glyphicon glyphicon-camera"></span> Instagram</button></a>
+    <a href='https://twitter.com/ttaborek'><button type='button' class='btn btn-lg btn-default animated bounce'><span class="glyphicon glyphicon-envelope"></span> Twitter</button></a>
+
+   
+
+    </footer>
+
+
+</html>
